@@ -4,6 +4,14 @@ import java.util.stream.Collectors;
 
 public class ExerciciosStreamAPI2 {
     public static void main(String[] args) {
+        int arr[] = {2, 3, 5, 7, 11, 13, 18, 34};
+        for (int arrItem : arr
+        ) {
+            if(arrItem % 2 == 0){
+                System.out.println(arrItem);
+            }
+        }
+
         List<String> numerosAleatorios = Arrays.asList("1", "0", "4", "1", "2", "3", "9", "9", "6", "5", "15");
         System.out.println("Ignore os 3 primeiros elementos da lista, e imprima o restante: ");
         numerosAleatorios.stream()
