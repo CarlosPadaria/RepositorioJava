@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "security.config",
+      "type": "com.example.jwt.security.SecurityConfig",
+      "sourceType": "com.example.jwt.security.SecurityConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
